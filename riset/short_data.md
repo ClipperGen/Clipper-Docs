@@ -1,0 +1,31 @@
+data poin to save:
+- project_id
+    - video_id
+        - short_count(n)
+        - short_number(n of n)
+            - generated_on
+            - generated_by
+            - last_updated
+            - start_time - end_time
+            - short_thumbnail_id
+            - short_thumbnail_url
+            - short_video_id
+            - short_title
+            - short_description
+            - short_tags
+            - subtitle
+            - subtitle_language
+            - subtitle_style
+            - subtitle_source
+            - export_status
+            - export_on
+    - video_title
+    - video_description
+    - video_tags
+    - video_thumbnail_id
+    - video_thumbnail_url
+
+note:
+- all playback on the ui will used youtube player.
+- we will not save the any of the video file locally, we will only save the data points to the database.
+- export short will than download the short as a video file using ffmpeg to actually cut the original video file to be short format.
